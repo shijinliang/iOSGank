@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3967D6301CD65A5C007C0202 /* ReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3967D62F1CD65A5C007C0202 /* ReportViewController.swift */; };
-		91D986ED565197E51169490E /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59A13CF01F18DDD3F0027C59 /* Pods.framework */; };
 		9F467F091CBF773F00C3397F /* FuliCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F467F081CBF773F00C3397F /* FuliCollectionViewCell.xib */; };
 		9F467F0B1CBF781D00C3397F /* FuliCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F467F0A1CBF781D00C3397F /* FuliCollectionViewCell.swift */; };
 		9F467F0D1CBF89E800C3397F /* FuliCollectionLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F467F0C1CBF89E800C3397F /* FuliCollectionLayoutAttributes.swift */; };
@@ -48,12 +47,13 @@
 		9FF5A8D21D13BD0E001117E7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF5A8D11D13BD0E001117E7 /* CoreGraphics.framework */; };
 		9FF5A8D41D13BD1B001117E7 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF5A8D31D13BD1B001117E7 /* CoreTelephony.framework */; };
 		9FF5A8D61D13BD26001117E7 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF5A8D51D13BD26001117E7 /* libstdc++.tbd */; };
+		A531B072D6D9F0F2749FA696 /* Pods_swiftMeiZi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDB58F0277124E11D4885EE6 /* Pods_swiftMeiZi.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1619179BA0B4035D3E02D7A8 /* Pods-swiftMeiZi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftMeiZi.release.xcconfig"; path = "Pods/Target Support Files/Pods-swiftMeiZi/Pods-swiftMeiZi.release.xcconfig"; sourceTree = "<group>"; };
 		3967D62F1CD65A5C007C0202 /* ReportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReportViewController.swift; sourceTree = "<group>"; };
 		59A13CF01F18DDD3F0027C59 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		875AB3E4AAFF0F6F2757C9B5 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		9F467F081CBF773F00C3397F /* FuliCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FuliCollectionViewCell.xib; sourceTree = "<group>"; };
 		9F467F0A1CBF781D00C3397F /* FuliCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FuliCollectionViewCell.swift; sourceTree = "<group>"; };
 		9F467F0C1CBF89E800C3397F /* FuliCollectionLayoutAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FuliCollectionLayoutAttributes.swift; sourceTree = "<group>"; };
@@ -98,7 +98,8 @@
 		9FF5A8D11D13BD0E001117E7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		9FF5A8D31D13BD1B001117E7 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		9FF5A8D51D13BD26001117E7 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
-		A8F813B05AA14640E1AD1A2A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		AE930F7E9E7F96718444568F /* Pods-swiftMeiZi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftMeiZi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swiftMeiZi/Pods-swiftMeiZi.debug.xcconfig"; sourceTree = "<group>"; };
+		EDB58F0277124E11D4885EE6 /* Pods_swiftMeiZi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swiftMeiZi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,19 +115,19 @@
 				9FB39ED51D06B3A50006A9DE /* libz.tbd in Frameworks */,
 				9FB39ED31D06B3990006A9DE /* libsqlite3.0.tbd in Frameworks */,
 				9FB39EC71D06A6100006A9DE /* Security.framework in Frameworks */,
-				91D986ED565197E51169490E /* Pods.framework in Frameworks */,
 				9FB39EDF1D06D8180006A9DE /* libUMessage_Sdk_1.3.0.a in Frameworks */,
+				A531B072D6D9F0F2749FA696 /* Pods_swiftMeiZi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3F546D50F7056855355420E1 /* Pods */ = {
+		3CCFE3F766EC9A3F27FAF415 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A8F813B05AA14640E1AD1A2A /* Pods.debug.xcconfig */,
-				875AB3E4AAFF0F6F2757C9B5 /* Pods.release.xcconfig */,
+				AE930F7E9E7F96718444568F /* Pods-swiftMeiZi.debug.xcconfig */,
+				1619179BA0B4035D3E02D7A8 /* Pods-swiftMeiZi.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -143,6 +144,7 @@
 				9FB39ED21D06B3990006A9DE /* libsqlite3.0.tbd */,
 				9FB39EC61D06A6100006A9DE /* Security.framework */,
 				59A13CF01F18DDD3F0027C59 /* Pods.framework */,
+				EDB58F0277124E11D4885EE6 /* Pods_swiftMeiZi.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -152,8 +154,8 @@
 			children = (
 				9F84C0601CB3C0CF00B8FE39 /* swiftMeiZi */,
 				9F84C05F1CB3C0CF00B8FE39 /* Products */,
-				3F546D50F7056855355420E1 /* Pods */,
 				5BBA6701498A30BCF88052A4 /* Frameworks */,
+				3CCFE3F766EC9A3F27FAF415 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -319,12 +321,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F84C0721CB3C0CF00B8FE39 /* Build configuration list for PBXNativeTarget "swiftMeiZi" */;
 			buildPhases = (
-				B0346F6DCCAB417F1ADAFB52 /* Check Pods Manifest.lock */,
+				9FED3D0995AA6AF5CC04FFD0 /* [CP] Check Pods Manifest.lock */,
 				9F84C05A1CB3C0CF00B8FE39 /* Sources */,
 				9F84C05B1CB3C0CF00B8FE39 /* Frameworks */,
 				9F84C05C1CB3C0CF00B8FE39 /* Resources */,
-				67AEC048B5CD08B2B775B98E /* Embed Pods Frameworks */,
-				B6C32BABB51B09B8CC1772BA /* Copy Pods Resources */,
+				9A935235B6B98990255F4A3E /* [CP] Embed Pods Frameworks */,
+				7F4CF56AC459D11EE6B5DAAC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -347,10 +349,10 @@
 				TargetAttributes = {
 					9F84C05D1CB3C0CF00B8FE39 = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = QZCH2AS656;
+						DevelopmentTeam = 9CJP9J82HZ;
 						SystemCapabilities = {
 							com.apple.Push = {
-								enabled = 1;
+								enabled = 0;
 							};
 						};
 					};
@@ -395,49 +397,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		67AEC048B5CD08B2B775B98E /* Embed Pods Frameworks */ = {
+		7F4CF56AC459D11EE6B5DAAC /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swiftMeiZi/Pods-swiftMeiZi-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B0346F6DCCAB417F1ADAFB52 /* Check Pods Manifest.lock */ = {
+		9A935235B6B98990255F4A3E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swiftMeiZi/Pods-swiftMeiZi-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B6C32BABB51B09B8CC1772BA /* Copy Pods Resources */ = {
+		9FED3D0995AA6AF5CC04FFD0 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -535,6 +537,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -572,17 +575,19 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 2.3;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		9F84C0731CB3C0CF00B8FE39 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A8F813B05AA14640E1AD1A2A /* Pods.debug.xcconfig */;
+			baseConfigurationReference = AE930F7E9E7F96718444568F /* Pods-swiftMeiZi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 9CJP9J82HZ;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -629,21 +634,23 @@
 					"\"SwiftMoment\"",
 					"-lz",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.teddy.swiftMeiZi;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kamy.swiftMeiZi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "swiftMeiZi/swiftMeiZi-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Debug;
 		};
 		9F84C0741CB3C0CF00B8FE39 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 875AB3E4AAFF0F6F2757C9B5 /* Pods.release.xcconfig */;
+			baseConfigurationReference = 1619179BA0B4035D3E02D7A8 /* Pods-swiftMeiZi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 9CJP9J82HZ;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -690,9 +697,10 @@
 					"\"SwiftMoment\"",
 					"-lz",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.teddy.swiftMeiZi;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kamy.swiftMeiZi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "swiftMeiZi/swiftMeiZi-Bridging-Header.h";
+				SWIFT_VERSION = 2.3;
 				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Release;
